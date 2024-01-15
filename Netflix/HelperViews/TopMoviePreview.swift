@@ -65,7 +65,7 @@ struct TopMoviePreview: View {
                     Spacer()
                 }
             }
-            .background(LinearGradient(colors: [Color.black.opacity(0), Color.black.opacity(0.95)], startPoint: .top, endPoint: .bottom))
+            .background(LinearGradient(colors: [Color.black.opacity(0), Color.black.opacity(0.95)], startPoint: .top, endPoint: .bottom).padding(.top, 250))
         }
         .foregroundColor(.white)
     }
